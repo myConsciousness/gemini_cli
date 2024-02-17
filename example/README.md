@@ -7,7 +7,7 @@ You need your api key to use Google Gemini; see https://ai.google.dev/tutorials/
 ## Install
 
 ```bash
-dart global activate gemini_cli
+dart pub global activate gemini_cli
 ```
 
 ## Use
