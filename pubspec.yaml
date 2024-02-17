@@ -1,0 +1,31 @@
+name: gemini_cli
+description: Command line tool to provide generative AI using Google Gemini LLM.
+version: 0.0.1
+repository: https://github.com/myConsciousness/gemini_cli
+
+environment:
+  sdk: ^3.0.0
+
+executables:
+  gemini:
+
+topics:
+  - cli
+  - gemini
+  - generative
+  - ai
+
+dependencies:
+  args: ^2.4.2
+  google_generative_ai: ^0.2.0
+  ansi_styles: ^0.3.1
+  cli_launcher: ^0.3.0
+  cli_util: ^0.3.0
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+  import_sorter: ^4.6.0
+
+import_sorter:
+  emojis: true
