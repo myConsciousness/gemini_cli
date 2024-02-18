@@ -6,8 +6,8 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 // 🌎 Project imports:
-import 'package:gemini_cli/src/command/gemini_command.dart';
-import 'package:gemini_cli/src/runner/gemini_runner.dart';
+import 'gemini_command.dart';
+import '../runner/gemini_runner.dart';
 
 class GenCommand extends GeminiCommand {
   GenCommand() {
